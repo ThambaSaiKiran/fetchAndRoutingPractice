@@ -39,10 +39,10 @@ class BlogItemDetails extends Component {
       <div className="itemDetailCont">
         <h1>{title}</h1>
         <div className="authCont">
-          <img src={avatarUrl} alt={author} />
+          <img className="avatarImage" src={avatarUrl} alt={author} />
           <p>{author}</p>
         </div>
-        <img src={imageUrl} alt={title} />
+        <img className="norImage" src={imageUrl} alt={title} />
         <p>{content}</p>
       </div>
     )
@@ -63,3 +63,4 @@ class BlogItemDetails extends Component {
 }
 
 export default BlogItemDetails
+
