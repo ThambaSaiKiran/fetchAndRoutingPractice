@@ -12,9 +12,10 @@ const BlogItem = props => {
         <img className="norImage" src={imageUrl} alt={title} />
         <div className="itemInfo">
           <p>{topic}</p>
-          <p>{title}</p>
+          <h1>{title}</h1>
           <div className="authorInfo">
             <img className="avatarImage" src={avatarUrl} alt={author} />
+            <h1>{author}</h1>
           </div>
         </div>
       </div>
