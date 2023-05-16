@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.itemDetailCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.authCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
